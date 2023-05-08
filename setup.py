@@ -56,7 +56,7 @@ description = """
 )
 
 console_scripts = [
-    "dt-pc-demo = dtps:dt_pc_demo",
+    "dtps = dtps.cli:cli",
 ]
 # setup package
 setup(
