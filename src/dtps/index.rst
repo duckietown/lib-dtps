@@ -1,11 +1,11 @@
 
-Pondcleaner package
+DTPS package
 ===================
 
 Pond cleaner
 -------------
 
-.. automodule:: duckietown_pondcleaner.pondcleaner
+.. automodule:: dtps.DTPS
    :members:
 
 
@@ -13,5 +13,5 @@ Pond cleaner
 Main entry points
 -----------------
 
-.. automodule:: duckietown_pondcleaner.demo
+.. automodule:: dtps.demo
    :members:

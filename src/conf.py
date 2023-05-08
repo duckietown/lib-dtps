@@ -3,7 +3,7 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-project = "Duckietown Pondcleaner"
+project = "DTPS"
 copyright = "Duckietown"
 author = "Mack"
 

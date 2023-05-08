@@ -3,8 +3,8 @@ from setuptools import find_packages, setup
 # :==> Fill in your project data here
 # The package name is the name on PyPI
 # it is not the python module names.
-package_name = "dt-pondcleaner"
-library_webpage = "http://github.com/duckietown/template-library"
+package_name = "dtps"
+library_webpage = "http://github.com/duckietown/lib-dtps"
 maintainer = "Mack"
 maintainer_email = "admin@duckietown.org"
 short_description = "A short description"
@@ -29,7 +29,7 @@ def get_version_from_source(filename):
     return version
 
 
-version = get_version_from_source("src/duckietown_pondcleaner/__init__.py")
+version = get_version_from_source("src/dtps/__init__.py")
 
 # read project dependencies
 # NO - dependencies.txt is for testing dependiences - EVERYTHING PINNED
@@ -56,7 +56,7 @@ description = """
 )
 
 console_scripts = [
-    "dt-pc-demo = duckietown_pondcleaner:dt_pc_demo",
+    "dt-pc-demo = dtps:dt_pc_demo",
 ]
 # setup package
 setup(
