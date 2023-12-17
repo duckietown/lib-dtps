@@ -5,8 +5,8 @@ from setuptools import find_packages, setup
 # it is not the python module names.
 package_name = "dtps"
 library_webpage = "http://github.com/duckietown/lib-dtps"
-maintainer = "Mack"
-maintainer_email = "admin@duckietown.org"
+maintainer = "Andrea Censi"
+maintainer_email = "andrea@duckietown.com"
 short_description = "A short description"
 full_description = """
 A longer description.
